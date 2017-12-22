@@ -16,7 +16,7 @@ from keras.layers import Flatten, Dense, Lambda, Conv2D, MaxPooling2D, Cropping2
 
 lines = []
 # Load data file
-with open('data3/driving_log.csv') as csvfile:
+with open('data/driving_log.csv') as csvfile:
 	reader = csv.reader(csvfile)
 	for line in reader:
 		lines.append(line)
